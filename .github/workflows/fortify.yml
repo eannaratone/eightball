@@ -123,7 +123,7 @@ jobs:
           # DO_PR_COMMENT: true                            # Generate PR comments, only used on pull_request triggers
           # PR_COMMENT_ACTION: <URL or file>               # Customize PR comments
           # PR_COMMENT_EXTRA_OPTS: --on-unsigned=ignore    # Pass extra options to PR comment action
-          DO_EXPORT: true                                # Export vulnerability data to GitHub code scanning dashboard
+          # DO_EXPORT: true                                # Export vulnerability data to GitHub code scanning dashboard
           # EXPORT_ACTION: <URL or file>                   # Customize export action
           # EXPORT_EXTRA_OPTS: --on-unsigned=ignore        # Pass extra options to export action
           # TOOL_DEFINITIONS: <URL>                        # URL from where to retrieve Fortify tool definitions
